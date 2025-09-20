@@ -4,12 +4,16 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
     font-family: 'Roboto';
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     align-items: center;
 }
 .section {
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     padding: 20px;
     border-radius: 10px;
     width: 600px;
@@ -31,6 +35,14 @@ body {
     font-size: 35px;
     padding-top: 45px;
     line-height: 1.5;
+    transition: all 0.3s ease;
+}
+h1:hover {
+    color: red;
+    font-size: 48px;
+    ::after {
+        content: KZkkZkzkxs;
+    }
 }
 .section h2 {
     font-size: 27px;
