@@ -1,22 +1,21 @@
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "reset.css";
 body {
     display: flex;
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    font-family: 'Roboto';
+    align-items: center;
 }
 .section {
-    /* background-color: #f0f0f0; */
+    background-color: #f0f0f0;
     padding: 20px;
     border-radius: 10px;
     width: 600px;
     font-size: 15px;
     line-height: 1.8;
+    width: 500px;
 }
 .section hr {
     margin-bottom: 8px;
