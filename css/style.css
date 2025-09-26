@@ -1,38 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "reset.css";
 body {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
     font-family: 'Roboto';
 }
 .main {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 90px;
     align-items: center;
+    margin: 80px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.small_title {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 .section {
     /* background-color: #f0f0f0; */
-    padding: 20px;
     border-radius: 10px;
     width: 600px;
     font-size: 15px;
     line-height: 1.8;
-    width: 500px;
-}
-.section hr {
-    margin-bottom: 8px;
-}
-.section p {
-    margin-bottom: 30px;
-}
-.section > ul {
-    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 .section h1 {
     font-size: 35px;
-    padding-top: 45px;
     line-height: 1.5;
     transition: all 0.3s ease;
 }
@@ -47,19 +51,15 @@ h1:hover {
 .section h3 {
     font-size: 20px;
     line-height: 1.5;
-    margin-bottom: 8px;
 }
 .section h4 {
     font-size: 17px;
     line-height: 1.5;
-    margin-bottom: 6px;
 }
 .description {
     color: rgba(0, 0, 0, 0.4);
     line-height: 1.7;
     font-size: 15px;
-    margin-top: 20px;
-    padding-bottom: 30px;
 }
 .description a {
     color: rgba(0, 0, 0, 0.4);
@@ -67,8 +67,6 @@ h1:hover {
 }
 img {
     width: 1020px;
-    padding-top: 30px;
-    padding-bottom: 120px;
 }
 .quote {
     border-left: 3px solid black;
